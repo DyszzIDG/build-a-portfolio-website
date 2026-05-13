@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Desarrollador de Software</title>
+    <meta name="description" content="Portafolio profesional de un Desarrollador de Software mostrando proyectos, experiencia y habilidades.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Watermark -->
+    <div class="watermark">IDG - IVAN</div>
+
+    <!-- Background Elements -->
+    <div class="bg-glow blob-1"></div>
+    <div class="bg-glow blob-2"></div>
+
+    <header class="glass-nav">
+        <nav class="container">
+            <a href="#" class="logo">Dev<span>Portfolio</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Construyendo Experiencias <span>Digitales</span></h1>
+                <p class="hero-subtitle">Desarrollador de Software especializado en tecnologías web modernas, arquitecturas escalables e interfaces de usuario increíbles.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Ver Mi Trabajo</a>
+                    <a href="#contact" class="btn btn-secondary">Contáctame</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <img src="assets/profile.png" alt="Avatar de Perfil" class="floating">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container section-padding">
+            <div class="section-heading reveal">
+                <h2>Sobre <span>Mí</span></h2>
+                <p>Mis cualificaciones y competencias principales.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text glass-card reveal">
+                    <h3>Quién soy</h3>
+                    <p>Soy un desarrollador de software apasionado con una sólida base en el desarrollo web moderno. Me encanta resolver problemas complejos y crear aplicaciones eficientes, escalables y visualmente atractivas.</p>
+                    <p>Mi enfoque combina prácticas de código limpio con un buen ojo para el diseño, asegurando que los productos que construyo sean tanto funcionales como agradables de usar.</p>
+                </div>
+                <div class="skills-grid reveal">
+                    <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="skill-item"><i class="fab fa-react"></i> React</div>
+                    <div class="skill-item"><i class="fab fa-node-js"></i> Node.js</div>
+                    <div class="skill-item"><i class="fas fa-database"></i> SQL & NoSQL</div>
+                    <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="skill-item"><i class="fas fa-cloud"></i> Nube (AWS/Azure)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="container section-padding">
+            <div class="section-heading reveal">
+                <h2>Experiencia <span>Laboral</span></h2>
+                <p>Mi trayectoria profesional y logros.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Desarrollador Frontend</h3>
+                        <span class="timeline-date">2022 - Presente | TechNova Inc.</span>
+                        <p>Desarrollé y mantuve aplicaciones web responsivas usando React. Mejoré el rendimiento general del sitio en un 30% mediante la división de código (code splitting) y carga diferida (lazy loading).</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Desarrollador Web Junior</h3>
+                        <span class="timeline-date">2020 - 2022 | Creative Web Agency</span>
+                        <p>Colaboré con diseñadores para implementar interfaces de usuario con precisión de píxeles. Construí temas personalizados de WordPress y optimicé el SEO para varios proyectos de clientes.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Pasante de Tecnologías de la Información</h3>
+                        <span class="timeline-date">2019 - 2020 | Global Solutions</span>
+                        <p>Asistí en el despliegue de herramientas internas y mantuve la integridad de la base de datos. Resolví tickets de soporte de TI y mejoré la documentación del sistema.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container section-padding">
+            <div class="section-heading reveal">
+                <h2>Proyectos <span>Destacados</span></h2>
+                <p>Una selección de mi mejor trabajo.</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card glass-card reveal">
+                    <div class="project-img-wrapper">
+                        <img src="assets/project1.png" alt="Panel de Control E-commerce">
+                        <div class="project-links">
+                            <a href="#" class="btn btn-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Panel de Control E-commerce</h3>
+                        <p>Un panel de administración integral para gestionar productos, pedidos y datos de clientes. Cuenta con modo oscuro, gráficos responsivos y actualizaciones en tiempo real.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card reveal">
+                    <div class="project-img-wrapper">
+                        <img src="assets/project2.png" alt="Plataforma de Análisis SaaS">
+                        <div class="project-links">
+                            <a href="#" class="btn btn-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="btn btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Plataforma de Análisis SaaS</h3>
+                        <p>Plataforma de visualización de datos que permite a los usuarios rastrear KPIs. Implementa tablas de datos complejas, filtrado dinámico y gráficos interactivos.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Chart.js</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container section-padding">
+            <div class="section-heading reveal">
+                <h2>Ponte en <span>Contacto</span></h2>
+                <p>Hablemos sobre cómo puedo aportar valor a tu equipo.</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info glass-card reveal">
+                    <h3>Información de Contacto</h3>
+                    <p>No dudes en comunicarte si buscas un desarrollador, tienes una pregunta o simplemente quieres conectar.</p>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-envelope"></i> hola@desarrollador.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card reveal">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar Mensaje <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Desarrollador de Software. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
